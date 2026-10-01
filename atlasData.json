@@ -1,5 +1,156 @@
 {
-	"Atlas0": {
-		"Message": "If you can see this, it worked!"
+	"atlas0": {
+		"images": [
+			{
+				"id": "full"
+			},
+			{
+				"id": "test1",
+				"bounds": {
+					"xMin": 0,
+					"xMax": 0.25,
+					"yMin": 0,
+					"yMax": 0.25
+				}
+			},
+			{
+				"id": "test2",
+				"bounds": {
+					"xMin": 0.25,
+					"xMax": 0.5,
+					"yMin": 0,
+					"yMax": 0.25
+				}
+			},
+			{
+				"id": "test3",
+				"bounds": {
+					"xMin": 0.5,
+					"xMax": 0.75,
+					"yMin": 0,
+					"yMax": 0.25
+				}
+			},
+			{
+				"id": "test4",
+				"bounds": {
+					"xMin": 0.75,
+					"xMax": 1,
+					"yMin": 0,
+					"yMax": 0.25
+				}
+			},
+
+			{
+				"id": "test5",
+				"bounds": {
+					"xMin": 0,
+					"xMax": 0.25,
+					"yMin": 0.25,
+					"yMax": 0.5
+				}
+			},
+			{
+				"id": "test6",
+				"bounds": {
+					"xMin": 0.25,
+					"xMax": 0.5,
+					"yMin": 0.25,
+					"yMax": 0.5
+				}
+			},
+			{
+				"id": "test7",
+				"bounds": {
+					"xMin": 0.5,
+					"xMax": 0.75,
+					"yMin": 0.25,
+					"yMax": 0.5
+				}
+			},
+			{
+				"id": "test8",
+				"bounds": {
+					"xMin": 0.75,
+					"xMax": 1,
+					"yMin": 0.25,
+					"yMax": 0.5
+				}
+			},
+
+			{
+				"id": "test9",
+				"bounds": {
+					"xMin": 0,
+					"xMax": 0.25,
+					"yMin": 0.5,
+					"yMax": 0.75
+				}
+			},
+			{
+				"id": "test10",
+				"bounds": {
+					"xMin": 0.25,
+					"xMax": 0.5,
+					"yMin": 0.5,
+					"yMax": 0.75
+				}
+			},
+			{
+				"id": "test11",
+				"bounds": {
+					"xMin": 0.5,
+					"xMax": 0.75,
+					"yMin": 0.5,
+					"yMax": 0.75
+				}
+			},
+			{
+				"id": "test12",
+				"bounds": {
+					"xMin": 0.75,
+					"xMax": 1,
+					"yMin": 0.5,
+					"yMax": 0.75
+				}
+			},
+
+			{
+				"id": "test13",
+				"bounds": {
+					"xMin": 0,
+					"xMax": 0.25,
+					"yMin": 0.75,
+					"yMax": 1
+				}
+			},
+			{
+				"id": "test14",
+				"bounds": {
+					"xMin": 0.25,
+					"xMax": 0.5,
+					"yMin": 0.75,
+					"yMax": 1
+				}
+			},
+			{
+				"id": "test15",
+				"bounds": {
+					"xMin": 0.5,
+					"xMax": 0.75,
+					"yMin": 0.75,
+					"yMax": 1
+				}
+			},
+			{
+				"id": "test16",
+				"bounds": {
+					"xMin": 0.75,
+					"xMax": 1,
+					"yMin": 0.75,
+					"yMax": 1
+				}
+			}
+		]
 	}
 }
