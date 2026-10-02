@@ -150,6 +150,91 @@
 					"yMin": 0.75,
 					"yMax": 1
 				}
+			},
+			{
+				"id": "xywh format test",
+				"bounds": {
+					"x": 0.5,
+					"y": 0.5,
+					"width": 1.5,
+					"height": 1.5
+				}
+			}
+		]
+	},
+
+	"atlas1": {
+		"gridX": 4,
+		"gridY": 4,
+		"gridPaddingX": 0,
+		"gridPaddingY": 0,
+		"images": [
+			{
+				"id": "gridFull"
+			},
+			{
+				"id": "grid0",
+				"grid": 0
+			},
+			{
+				"id": "grid1",
+				"grid": 1
+			},
+			{
+				"id": "grid2",
+				"grid": 2
+			},
+			{
+				"id": "grid3",
+				"grid": 3
+			},
+			{
+				"id": "grid4",
+				"grid": 4
+			},
+			{
+				"id": "grid5",
+				"grid": 5
+			},
+			{
+				"id": "grid6",
+				"grid": 6
+			},
+			{
+				"id": "grid7",
+				"grid": 7
+			},
+			{
+				"id": "grid8",
+				"grid": 8
+			},
+			{
+				"id": "grid9",
+				"grid": 9
+			},
+			{
+				"id": "grid10",
+				"grid": 10
+			},
+			{
+				"id": "grid11",
+				"grid": 11
+			},
+			{
+				"id": "grid12",
+				"grid": 12
+			},
+			{
+				"id": "grid13",
+				"grid": 13
+			},
+			{
+				"id": "grid14",
+				"grid": 14
+			},
+			{
+				"id": "grid15",
+				"grid": 15
 			}
 		]
 	}
