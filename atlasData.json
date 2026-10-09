@@ -1,241 +1,307 @@
 {
-	"atlas0": {
-		"images": [
-			{
-				"id": "full"
-			},
-			{
-				"id": "test1",
-				"bounds": {
-					"xMin": 0,
-					"xMax": 0.25,
-					"yMin": 0,
-					"yMax": 0.25
+	"tGameData": {
+		"contestantPresets": {
+			"testPreset": [
+				{
+					"txt": "one",
+					"img": "test1"
+				},
+				{
+					"txt": "two",
+					"img": "test2"
+				},
+				{
+					"txt": "three",
+					"img": "test3"
+				},
+				{
+					"txt": "four",
+					"img": "test4"
 				}
+			]
+		},
+		"tournaments": {
+			"testTournament1": {
+				"displayName": "test 1",
+				"question": "test question 1",
+				"thumb": "test1",
+				"category": "testing",
+				"contestants": "testPreset"
 			},
-			{
-				"id": "test2",
-				"bounds": {
-					"xMin": 0.25,
-					"xMax": 0.5,
-					"yMin": 0,
-					"yMax": 0.25
-				}
-			},
-			{
-				"id": "test3",
-				"bounds": {
-					"xMin": 0.5,
-					"xMax": 0.75,
-					"yMin": 0,
-					"yMax": 0.25
-				}
-			},
-			{
-				"id": "test4",
-				"bounds": {
-					"xMin": 0.75,
-					"xMax": 1,
-					"yMin": 0,
-					"yMax": 0.25
-				}
-			},
-
-			{
-				"id": "test5",
-				"bounds": {
-					"xMin": 0,
-					"xMax": 0.25,
-					"yMin": 0.25,
-					"yMax": 0.5
-				}
-			},
-			{
-				"id": "test6",
-				"bounds": {
-					"xMin": 0.25,
-					"xMax": 0.5,
-					"yMin": 0.25,
-					"yMax": 0.5
-				}
-			},
-			{
-				"id": "test7",
-				"bounds": {
-					"xMin": 0.5,
-					"xMax": 0.75,
-					"yMin": 0.25,
-					"yMax": 0.5
-				}
-			},
-			{
-				"id": "test8",
-				"bounds": {
-					"xMin": 0.75,
-					"xMax": 1,
-					"yMin": 0.25,
-					"yMax": 0.5
-				}
-			},
-
-			{
-				"id": "test9",
-				"bounds": {
-					"xMin": 0,
-					"xMax": 0.25,
-					"yMin": 0.5,
-					"yMax": 0.75
-				}
-			},
-			{
-				"id": "test10",
-				"bounds": {
-					"xMin": 0.25,
-					"xMax": 0.5,
-					"yMin": 0.5,
-					"yMax": 0.75
-				}
-			},
-			{
-				"id": "test11",
-				"bounds": {
-					"xMin": 0.5,
-					"xMax": 0.75,
-					"yMin": 0.5,
-					"yMax": 0.75
-				}
-			},
-			{
-				"id": "test12",
-				"bounds": {
-					"xMin": 0.75,
-					"xMax": 1,
-					"yMin": 0.5,
-					"yMax": 0.75
-				}
-			},
-
-			{
-				"id": "test13",
-				"bounds": {
-					"xMin": 0,
-					"xMax": 0.25,
-					"yMin": 0.75,
-					"yMax": 1
-				}
-			},
-			{
-				"id": "test14",
-				"bounds": {
-					"xMin": 0.25,
-					"xMax": 0.5,
-					"yMin": 0.75,
-					"yMax": 1
-				}
-			},
-			{
-				"id": "test15",
-				"bounds": {
-					"xMin": 0.5,
-					"xMax": 0.75,
-					"yMin": 0.75,
-					"yMax": 1
-				}
-			},
-			{
-				"id": "test16",
-				"bounds": {
-					"xMin": 0.75,
-					"xMax": 1,
-					"yMin": 0.75,
-					"yMax": 1
-				}
-			},
-			{
-				"id": "xywh format test",
-				"bounds": {
-					"x": 0.5,
-					"y": 0.5,
-					"width": 1.5,
-					"height": 1.5
-				}
+			"testTournament2": {
+				"displayName": "test 2",
+				"question": "test question 2",
+				"thumb": "test2",
+				"categories": [
+					"testing",
+					"debug"
+				],
+				"contestants": [
+					{
+						"txt": "five",
+						"img": "test5"
+					},
+					{
+						"txt": "six",
+						"img": "test6"
+					},
+					{
+						"txt": "seven",
+						"img": "test7"
+					},
+					{
+						"txt": "eight",
+						"img": "test8"
+					},
+					{
+						"txt": "no image"
+					},
+					{
+						"img": "full"
+					}
+				]
 			}
-		]
+		}
 	},
+	"imageLibrary": {
+		"atlas0": {
+			"images": [
+				{
+					"id": "full"
+				},
+				{
+					"id": "test1",
+					"bounds": {
+						"xMin": 0,
+						"xMax": 0.25,
+						"yMin": 0,
+						"yMax": 0.25
+					}
+				},
+				{
+					"id": "test2",
+					"bounds": {
+						"xMin": 0.25,
+						"xMax": 0.5,
+						"yMin": 0,
+						"yMax": 0.25
+					}
+				},
+				{
+					"id": "test3",
+					"bounds": {
+						"xMin": 0.5,
+						"xMax": 0.75,
+						"yMin": 0,
+						"yMax": 0.25
+					}
+				},
+				{
+					"id": "test4",
+					"bounds": {
+						"xMin": 0.75,
+						"xMax": 1,
+						"yMin": 0,
+						"yMax": 0.25
+					}
+				},
 
-	"atlas1": {
-		"gridX": 4,
-		"gridY": 4,
-		"gridPaddingX": 0,
-		"gridPaddingY": 0,
-		"images": [
-			{
-				"id": "gridFull"
-			},
-			{
-				"id": "grid0",
-				"grid": 0
-			},
-			{
-				"id": "grid1",
-				"grid": 1
-			},
-			{
-				"id": "grid2",
-				"grid": 2
-			},
-			{
-				"id": "grid3",
-				"grid": 3
-			},
-			{
-				"id": "grid4",
-				"grid": 4
-			},
-			{
-				"id": "grid5",
-				"grid": 5
-			},
-			{
-				"id": "grid6",
-				"grid": 6
-			},
-			{
-				"id": "grid7",
-				"grid": 7
-			},
-			{
-				"id": "grid8",
-				"grid": 8
-			},
-			{
-				"id": "grid9",
-				"grid": 9
-			},
-			{
-				"id": "grid10",
-				"grid": 10
-			},
-			{
-				"id": "grid11",
-				"grid": 11
-			},
-			{
-				"id": "grid12",
-				"grid": 12
-			},
-			{
-				"id": "grid13",
-				"grid": 13
-			},
-			{
-				"id": "grid14",
-				"grid": 14
-			},
-			{
-				"id": "grid15",
-				"grid": 15
-			}
-		]
+				{
+					"id": "test5",
+					"bounds": {
+						"xMin": 0,
+						"xMax": 0.25,
+						"yMin": 0.25,
+						"yMax": 0.5
+					}
+				},
+				{
+					"id": "test6",
+					"bounds": {
+						"xMin": 0.25,
+						"xMax": 0.5,
+						"yMin": 0.25,
+						"yMax": 0.5
+					}
+				},
+				{
+					"id": "test7",
+					"bounds": {
+						"xMin": 0.5,
+						"xMax": 0.75,
+						"yMin": 0.25,
+						"yMax": 0.5
+					}
+				},
+				{
+					"id": "test8",
+					"bounds": {
+						"xMin": 0.75,
+						"xMax": 1,
+						"yMin": 0.25,
+						"yMax": 0.5
+					}
+				},
+
+				{
+					"id": "test9",
+					"bounds": {
+						"xMin": 0,
+						"xMax": 0.25,
+						"yMin": 0.5,
+						"yMax": 0.75
+					}
+				},
+				{
+					"id": "test10",
+					"bounds": {
+						"xMin": 0.25,
+						"xMax": 0.5,
+						"yMin": 0.5,
+						"yMax": 0.75
+					}
+				},
+				{
+					"id": "test11",
+					"bounds": {
+						"xMin": 0.5,
+						"xMax": 0.75,
+						"yMin": 0.5,
+						"yMax": 0.75
+					}
+				},
+				{
+					"id": "test12",
+					"bounds": {
+						"xMin": 0.75,
+						"xMax": 1,
+						"yMin": 0.5,
+						"yMax": 0.75
+					}
+				},
+
+				{
+					"id": "test13",
+					"bounds": {
+						"xMin": 0,
+						"xMax": 0.25,
+						"yMin": 0.75,
+						"yMax": 1
+					}
+				},
+				{
+					"id": "test14",
+					"bounds": {
+						"xMin": 0.25,
+						"xMax": 0.5,
+						"yMin": 0.75,
+						"yMax": 1
+					}
+				},
+				{
+					"id": "test15",
+					"bounds": {
+						"xMin": 0.5,
+						"xMax": 0.75,
+						"yMin": 0.75,
+						"yMax": 1
+					}
+				},
+				{
+					"id": "test16",
+					"bounds": {
+						"xMin": 0.75,
+						"xMax": 1,
+						"yMin": 0.75,
+						"yMax": 1
+					}
+				},
+				{
+					"id": "xywh format test",
+					"bounds": {
+						"x": 0.5,
+						"y": 0.5,
+						"width": 1.5,
+						"height": 1.5
+					}
+				}
+			]
+		},
+
+		"atlas1": {
+			"gridX": 4,
+			"gridY": 4,
+			"gridPaddingX": 0,
+			"gridPaddingY": 0,
+			"images": [
+				{
+					"id": "gridFull"
+				},
+				{
+					"id": "grid0",
+					"grid": 0
+				},
+				{
+					"id": "grid1",
+					"grid": 1
+				},
+				{
+					"id": "grid2",
+					"grid": 2
+				},
+				{
+					"id": "grid3",
+					"grid": 3
+				},
+				{
+					"id": "grid4",
+					"grid": 4
+				},
+				{
+					"id": "grid5",
+					"grid": 5
+				},
+				{
+					"id": "grid6",
+					"grid": 6
+				},
+				{
+					"id": "grid7",
+					"grid": 7
+				},
+				{
+					"id": "grid8",
+					"grid": 8
+				},
+				{
+					"id": "grid9",
+					"grid": 9
+				},
+				{
+					"id": "grid10",
+					"grid": 10
+				},
+				{
+					"id": "grid11",
+					"grid": 11
+				},
+				{
+					"id": "grid12",
+					"grid": 12
+				},
+				{
+					"id": "grid13",
+					"grid": 13
+				},
+				{
+					"id": "grid14",
+					"grid": 14
+				},
+				{
+					"id": "grid15",
+					"grid": 15
+				}
+			]
+		}
 	}
 }
